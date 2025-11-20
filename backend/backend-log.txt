@@ -1,0 +1,6 @@
+🚀 Server is running on port 5000
+📍 Environment: development
+🌐 API available at: http://localhost:5000/api
+🔗 Mongoose connected to MongoDB
+✅ MongoDB Connected: ac-burp0vj-shard-00-02.7zyecy6.mongodb.net
+📦 Database: biryani_house

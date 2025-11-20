@@ -1,0 +1,64 @@
+{
+  "name": "MenuItem",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the dish"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the dish"
+    },
+    "price": {
+      "type": "number",
+      "description": "Price in dollars"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "biryani",
+        "beverages",
+        "sweets",
+        "sides",
+        "specials"
+      ],
+      "description": "Category of the menu item"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "URL of the dish image"
+    },
+    "available": {
+      "type": "boolean",
+      "default": true,
+      "description": "Whether the item is currently available"
+    },
+    "spice_level": {
+      "type": "string",
+      "enum": [
+        "mild",
+        "medium",
+        "hot",
+        "extra_hot",
+        "none"
+      ],
+      "description": "Spice level of the dish"
+    },
+    "is_vegetarian": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether the dish is vegetarian"
+    },
+    "is_featured": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether to feature on home page"
+    }
+  },
+  "required": [
+    "name",
+    "price",
+    "category"
+  ]
+}
