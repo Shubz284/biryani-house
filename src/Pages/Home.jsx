@@ -1,12 +1,12 @@
 import React from "react";
 import { base44 } from "@/api/base44Client";
 import { useQuery } from "@tanstack/react-query";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 import { Link } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import { ArrowRight, Star, Flame, Clock, Award } from "lucide-react";
 import { motion } from "framer-motion";
-import MenuCard from "../components/MenuCard";
+import MenuCard from "../Components/MenuCard";
 
 export default function HomePage() {
   const { data: featuredItems, isLoading } = useQuery({

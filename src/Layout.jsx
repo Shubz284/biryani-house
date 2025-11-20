@@ -10,8 +10,8 @@ import {
   Clock,
   Mail,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+import { Button } from "@/Components/ui/button";
+import { Badge } from "@/Components/ui/badge";
 
 export default function Layout({ children, currentPageName }) {
   const location = useLocation();

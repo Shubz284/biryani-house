@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { base44 } from "@/api/base44Client";
 import { useQuery } from "@tanstack/react-query";
-import { Button } from "@/components/ui/button";
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Button } from "@/Components/ui/button";
+import { Tabs, TabsList, TabsTrigger } from "@/Components/ui/tabs";
 import { Filter } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import MenuCard from "../components/MenuCard";
+import MenuCard from "../Components/MenuCard";
 
 export default function MenuPage() {
   const [activeCategory, setActiveCategory] = useState("all");
